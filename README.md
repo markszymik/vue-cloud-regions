@@ -1,7 +1,7 @@
 
 # Vue cloud provider regions select  
   
-Simple HTML `<select>` with cloud provider list regions.
+Simple HTML `<select>` with cloud provider regions list.
 
 ## Install  
 ```  
@@ -9,7 +9,7 @@ npm install vue-cloud-regions
 ```  
 ### Usage  
   
- #### Basic
+#### Basic
 ```  
 <CloudRegionsSelect provider="aws" />  
 ```  
@@ -17,12 +17,12 @@ npm install vue-cloud-regions
 #### Exclude regions
 
 ```  
-<CloudRegionsSelect provider="aws" exclude="['us-west-1','us-west-2']" />  
+<CloudRegionsSelect provider="aws" :exclude="['us-west-1','us-west-2']" />  
 ```  
 #### Include regions
 
 ```  
-<CloudRegionsSelect provider="aws" include="['eu-west-1']" />  
+<CloudRegionsSelect provider="aws" :include="['eu-west-1']" />  
 ```  
 
 ### Providers
