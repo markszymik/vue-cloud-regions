@@ -1,22 +1,43 @@
-# Vue cloud provider regions select
 
-## Install
-```
-npm install vue-cloud-provider-regions-list
-```
-### Usage
+# Vue cloud provider regions select  
+  
+Simple HTML `<select>` with cloud provider list regions.
 
-```
-<CloudProviderRegionsSelect provider="aws" />
-```
+## Install  
+```  
+npm install vue-cloud-regions
+```  
+### Usage  
+  
+ #### Basic
+```  
+<CloudRegionsSelect provider="aws" />  
+```  
 
+#### Exclude regions
 
-Providers: `aws`,`do`,`gcp`
+```  
+<CloudRegionsSelect provider="aws" exclude="['us-west-1','us-west-2']" />  
+```  
+#### Include regions
 
-## Author
+```  
+<CloudRegionsSelect provider="aws" include="['eu-west-1']" />  
+```  
 
-Mark Szymik
+### Providers
 
-## License
+|Provider| Code  |
+|--|--|
+| Amazon Web Services (AWS) | `aws` |
+| Google Cloud Platform | `gcp` |
+| Digital Ocean | `do` |
 
+  
+## Author  
+  
+Mark Szymik  
+  
+## License  
+  
 MIT

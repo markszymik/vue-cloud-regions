@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import CloudProviderRegionsSelect from './CloudProviderRegionsSelect.vue';
+import CloudRegionsSelect from './CloudRegionsSelect.vue';
 
-Vue.component('CloudProviderRegionsSelect', CloudProviderRegionsSelect);
+Vue.component('CloudRegionsSelect', CloudRegionsSelect);
 
-export default CloudProviderRegionsSelect;
+export default CloudRegionsSelect;
