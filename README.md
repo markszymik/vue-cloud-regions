@@ -1,24 +1,22 @@
-# vue-cloud-provider-regions-select
+# Vue cloud provider regions select
 
-## Project setup
+## Install
 ```
-npm install
+npm install vue-cloud-provider-regions-list
 ```
+### Usage
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+<CloudProviderRegionsSelect provider="aws" />
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Providers: `aws`,`do`,`gcp`
+
+## Author
+
+Mark Szymik
+
+## License
+
+MIT

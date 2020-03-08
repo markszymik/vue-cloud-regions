@@ -1,12 +1,23 @@
 {
   "name": "vue-cloud-provider-regions-select",
   "version": "0.1.0",
-  "private": true,
+  "description": "Cloud provider regions select for VueJS",
+  "author": {
+    "name": "Mark Szymik"
+  },
+  "repository": "https://github.com/markszymik/vue-cloud-provider-regions-select",
+  "bugs": "https://github.com/markszymik/vue-cloud-provider-regions-select/issues",
+  "keywords": ["aws","amazon web services", "gcp","google cloud", "digital ocean"],
+  "license": "MIT",
+  "private": false,
+  "files": ["dist/*","src/*"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:npm": "vue-cli-service build --target lib --name vue-cloud-provider-regions-select ./src/index.js"
   },
+  "main": "dist/vue-cloud-provider-regions-select.common.js",
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
